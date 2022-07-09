@@ -47,6 +47,8 @@ header{
 
 .ProDesign-card{
     background-color: #283142;
+    border-radius: 10px;
+    padding: 30 px 10px;
 }
 
 .ProDesigner-container{
@@ -56,4 +58,59 @@ header{
 
 #sales{
     padding: 40px 10px;
+}
+
+.ProDesign-sales-title{
+    color: #676FFF;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.ProDesign-form-control{
+    width: 100%;
+    height: 46px;
+    background-color: #1B2531;
+    border: 1px;
+    border-radius: 5px;
+    color: #9AAABE;
+    padding: 0 21px;
+    font-size: 18px;
+}
+
+.ProDesign-form-control-container{
+    margin-bottom: 16px;
+    max-width: 300px;
+}
+
+.ProDesign-sales-table{
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.ProDesign-sales-table thead{
+    height: 55px;
+    font-size: 16px;
+    color: #E9E9E9;
+    font-weight: 700;
+}
+
+.ProDesign-sales-table tbody{
+    font-size: 14px;
+    font-weight: 400;
+    color: #CFCFCF;
+    text-align: center;
+}
+
+.ProDesign-sales-table tbody tr{
+    height: 74px;
+    border-top: 1px solid #5F6E82;
+}
+
+.ProDesign-sales-table tbody tr:hover > td{
+    background-color: #384459;
+}
+
+.ProDesign-sales-table tbody tr:nth-child(odd){
+    background-color: #242C3B;
 }
