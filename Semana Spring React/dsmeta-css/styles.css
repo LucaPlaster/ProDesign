@@ -44,3 +44,16 @@ header{
     font-size: 14px;
     font-weight: 300;
 }
+
+.ProDesign-card{
+    background-color: #283142;
+}
+
+.ProDesigner-container{
+    width: 100%;
+    max-width: 900px;
+}
+
+#sales{
+    padding: 40px 10px;
+}
