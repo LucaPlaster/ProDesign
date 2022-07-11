@@ -137,5 +137,33 @@ header{
 }
 
 .show576{
-    
+    display: none;
+}
+
+.show992{
+    display: none;
+}
+
+@media (min-width: 576px){
+    .show576{
+        display: table-cell;
+    }
+
+    .ProDesign-card{
+        padding: 35px;
+    }
+
+    .ProDesign-sales-table tbody tr{
+        height: 55px;
+    }
+
+    .ProDesign-sales-table tbody{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px){
+    .show992{
+        display: table-cell;
+    }
 }
