@@ -1,13 +1,19 @@
-import NotificationButton from "./components/NotificationButton";
+import SalesCard from "./components/SalesCard";
+import Header from "./components/header";
 
 function App() {
   return (
     <>
-      <h1>Hello World!</h1>
-      <NotificationButton />
-      <NotificationButton />
+    <Header/>
+    <main>
+        <section id="sales">
+            <div className="ProDesign-container">
+              <SalesCard/>
+            </div>
+        </section>
+      </main>
     </>
-  );
+  )
 }
 
 export default App;

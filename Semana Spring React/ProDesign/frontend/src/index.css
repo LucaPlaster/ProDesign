@@ -16,3 +16,12 @@ a, a:hover, a:visited {
     color: unset; /* Não altera a cor automaticamente */
     text-decoration: none; /* Não altera a decoração de texto automaticamente */
 }
+
+.ProDesigner-container{
+    width: 100%;
+    max-width: 900px;
+}
+
+#sales{
+    padding: 40px 10px;
+}
