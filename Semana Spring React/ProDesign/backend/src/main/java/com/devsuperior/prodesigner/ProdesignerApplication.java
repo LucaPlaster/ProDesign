@@ -9,5 +9,4 @@ public class ProdesignerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ProdesignerApplication.class, args);
 	}
-
 }
